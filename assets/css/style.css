@@ -1,0 +1,208 @@
+/* Archivos importados */
+@import url('reset.css');
+@import url('grilla.css');
+@import url('../fonts/css/font-awesome.min.css'); /* Iconos */
+@import url(http://fonts.googleapis.com/css?family=Play); /* Fuente Play */
+
+body{background:#eee;font-family:'Play';font-size:16px;padding-top:102px;}
+
+/* Style */
+a{text-decoration:none;color:#FC3C2A;}
+p{margin-bottom:15px;line-height:18px;}
+h1{font-size:2.5em;}
+h2{font-size:2em;margin-bottom:15px;}
+h3{font-size:1.5em;margin-bottom:15px;color:#FC3C2A;}
+h4{font-size:1em;margin-bottom:15px;color:#FC3C2A;}
+h5{font-size:0.5em;margin-bottom:15px;color:#FC3C2A;}
+h6{font-size:0em;margin-bottom:15px;color:#FC3C2A;}
+
+/* Contacto Top*/
+#contacto-top{padding:10px 0;background:#FC3C2A;color:#eee;}
+#contacto-top .fa{font-size:20px;}
+#contacto-top .row{margin-bottom:0;}
+#contacto-top a{color:#eee;}
+#contacto-top a:hover{font-weight:bold;}
+
+/* Menu Top */
+#menu{background:rgba(10, 10, 10, 0.7);width:100%;position:fixed;top:0;left:0;z-index:999;background:rgba(10, 10, 10, 0.9);box-shadow:0 5px 30px #222;}
+#menu .abre-menu-responsivo{float:right;color:#FC3C2A;margin:5px 15px 0 0;display:none;font-size:40px;}
+#menu .logo a{font-size:24px;font-weight:normal;margin:15px 0;text-align:left;}
+#menu .logo:hover a{font-style:normal;}
+#menu ul{display:table;width:100%;}
+#menu ul li{display:table-cell;vertical-align:middle;}
+#menu ul li a{padding:4px 8px;display:block;font-weight:bold;color:#eee;text-align:center;}
+#menu ul li a:hover{transition:color 0.4s,font-style 0.1s;color:#FC3C2A;font-style:italic;}
+#menu ul li.dropdown{position:relative;}
+#menu ul li.dropdown ul{display:none;position:absolute;top:60px;left:0;z-index:999;}
+#menu ul li.dropdown ul li{display:block;}
+#menu ul li.dropdown ul li a{background:#222;border-radius:6px;margin-top:10px;padding:10px 0;}
+#menu ul li.dropdown ul li a:hover{background:#FC3C2A;color:#eee;}
+
+/* Slider */
+#slider-top{width:100%;box-shadow:0 15px 30px #bbb;border-bottom:1px solid #888;z-index:-1;margin-top:-60px;}
+
+/* Inicio > Cursos */
+#inicio-cursos{width:80%;margin:auto;margin-top:-280px;position:relative;z-index:2;}
+#inicio-cursos .col-4{color:#eee;padding-top:40px;padding-bottom:40px;background:#000;background-size:100%;}
+#inicio-cursos .col-4:hover{margin-top:-30px;border-bottom:30px solid #FC3C2A;transition:margin-top 0.4s,border-bottom, 0.4s;}
+#inicio-cursos .col-4 p{margin-bottom:5px;}
+#inicio-cursos .maquina{background-image:url('../images/slider-1-bg.jpg');}
+#inicio-cursos .vale-todo{background-image:url('../images/slider-2-bg.jpg');}
+#inicio-cursos .danza{background-image:url('../images/slider-3-bg.jpg');}
+#inicio-cursos h2{background:#FC3C2A;padding:4px 15px;display:inline-block;margin-left:-15px;margin-bottom:15px;}
+#inicio-cursos .price{margin-top:40px;margin-bottom:0;}
+#inicio-cursos .price span{font-weight:bold;font-size:2em;font-style:italic;}
+
+/* Inicio > Calendario */
+#calendario{margin-top:80px;}
+#calendario .pesas{background-image:url(../images/pesas.jpg);}
+#calendario .yoga{background-image:url(../images/yoga.jpg);}
+#calendario .abdominales{background-image:url(../images/abdominales.jpg)}
+#calendario .horario h4{background:#FAE20D;color:#222;padding:15px;font-size:1.5em;font-weight:bold;margin-bottom:0;}
+#calendario .horario h4 .fa{margin-right:12px;}
+#calendario .horario .row{border-bottom:1px dashed #ccc;padding:20px 0;margin-bottom:0;}
+#calendario .horario .row:hover{background:#222;transition:background 0.4s;border-bottom-color:#ddd;color:#eee;}
+#calendario .horario .fecha{font-size:20px;text-align:center;}
+#calendario .horario .tema{font-size:20px;}
+#calendario .horario .precio{text-align:center;font-weight:bold;}
+#calendario .horario .otros{display:block;margin:15px 0;}
+
+/* Inicio > Entrenadores */
+#entrenadores{background:#111;margin:40px 0 0;color:#eee;}
+#entrenadores h2{text-align:center;background:#222;padding:20px 0;color:#FC3C2A;}
+#entrenadores .col-4{padding:40px 0 20px;}
+#entrenadores .col-4:hover{background:#000;transition:background, 0.4s;}
+#entrenadores .profesor{border-radius:100%;}
+
+.entrenador-popup{margin-top:30px;}
+
+/* Inicio > Mail */
+#mail{padding:30px;text-align:center;background:#e8e2c8;color:#222;}
+#mail input{width:100%;display:block;border:none;background:#e8e2c8;padding:10px 0;font-size:20px;text-align:center;}
+
+/* Inicio > Footer */
+#footer{background:#FC3C2A;color:#eee;padding:60px 0 0;}
+#footer h4{color:#eee;font-size:30px;font-style:italic;margin-bottom:40px;}
+#footer ul li{margin-bottom:15px;}
+#footer a{color:#eee;}
+#footer .testimonios span{display:inline-block;background:#222;padding:4px 8px;border-radius:4px;}
+#credito {text-align:center;background:#111;padding:20px 0;margin-top:60px;}
+#credito .row{margin-bottom:0;}
+
+/* Entrenadores */
+.entrenadores .row{margin:0;}
+.entrenadores .contenido{padding-bottom:20px;margin-top:120px;color:#eee;text-shadow:1px 1px 15px #222;}
+.entrenadores h3{margin:30px 0 15px;color:#eee;font-weight:bold;font-style:italic;}
+#entrenador-a {
+    background:
+        url(../images/trainer-1.png) right bottom no-repeat, 
+        url(../images/trainer-1-bg.jpg) center center no-repeat;
+    background-color:#ebbbd1;
+    height:580px;}
+#entrenador-b {
+    background:
+        url(../images/trainer-3.png) right bottom no-repeat, 
+        url(../images/trainer-3-bg.jpg) center center no-repeat;
+    background-color:#81acfb;
+    height:580px;}
+#entrenador-c {
+    background:
+        url(../images/trainer-2.png) right bottom no-repeat, 
+        url(../images/trainer-2-bg.jpg) center center no-repeat;
+    background-color:#242424;
+    height:580px;}
+
+
+/* Membrsia */
+#membresia{margin-top:-15px}
+#membresia .video-container{position:relative;background:#222;z-index:0;}
+#membresia .video-container iframe{position:absolute;top:0;left:0;z-index:1;}
+#membresia .row{margin:0;position:relative;z-index:999;}
+#membresia form{background:rbga(250, 250, 250, 0.4);padding:30px 0;color:#eee;text-shadow:1px 1px 15px #000;}
+#membresia #bg-video{width:100%;height:100%;top:0;left:0;position:absolute;z-index:-1;}
+#membresia .entrenadores{padding-top:30px;background:#222;}
+#membresia .entrenador-a{height:540px;background:url(../images/trainer-1.png) center bottom no-repeat;}
+#membresia .entrenador-b{height:540px;background:url(../images/trainer-2.png) center bottom no-repeat;}
+#membresia .entrenador-c{height:540px;background:url(../images/trainer-3.png) center bottom no-repeat;}
+#membresia #opcion{margin-top:15px;}
+#membresia #opcion li{padding-left:15px;margin-bottom:15px;font-style:italic;display:none;}
+
+/* Contacto */
+#mapa{height:400px;margin-top:-15px;margin-bottom:60px;}
+
+
+/* Decoradores */
+.titulo{border-bottom:1px solid #CCC;padding-bottom:15px;font-weight:bold;letter-spacing:1.5px;color:#FC3C2A;}
+.titulo-pagina{text-align:center;margin-bottom:15px;height:158px;line-height:158px;color:#eee;background-size:100% 100%;}
+.titulo-pagina.clase{background-image:url(../images/t-clases.jpg);}
+.titulo-pagina.entrenadores{background-image:url(../images/t-entrenador.jpg);}
+.titulo-pagina.membresia{background-image:url(../images/t-membresia.jpg);}
+.titulo-pagina.contacto{background-image:url(../images/t-contacto.jpg);}
+
+/* Popup */
+.popup{
+    position:fixed;box-shadow:5px 5px 5px #ccc;z-index:9999;background:#eee;border:1px solid #ddd;
+    
+    left:50%;
+    width:500px;
+    margin-left:-250px;
+    
+    top:50%;
+    height:500px;
+    
+    margin-top:-250px;
+    
+    display:none;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.popup .popup-espacio{margin:15px;}
+.popup .popup-cerrar{font-size:24px;display:block;text-align:right;}
+
+/* Error de formulario */
+.error-validacion{color:#FC3C2A;}
+
+.articulo .imagen{height:180px;background-size:100%;}
+.articulo h4{margin-top:15px;font-size:1.5em;}
+.articulo p{font-size:14px;text-align:justify;}
+.articulo .detalle{margin-bottom:15px;}
+.articulo .detalle .fa{margin-right:6px;font-size:16px;width:10px;}
+.articulo .imagen{height:180px;background-size:100%;position:relative;z-index:0;}
+.articulo .imagen .fecha{font-weight:bold;width:30px;text-align:center;position:absolute;z-index:1;bottom:0;left:0;background:#FC3C2A;color:#eee;padding:10px 15px;border-top-right-radius:15px;font-size:20px;text-align:justify;}
+.articulo .imagen:hover{transition:background-size, 0.4s;background-size:120%;}
+
+.galeria a{display:block;height:240px;background:#222;overflow:hidden;}
+.galeria a img{width:100%;height:100%;}
+.galeria a:hover img{opacity:0.8;width:150%;height:150%;transition:opacity 0.4s,width 0.4s, height 0.4s;}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body{padding-top:50px;}
+    
+    /* Contacto Top */
+    #contacto-top .box{margin-bottom:0;}
+    
+    /* Menu */
+    #menu .responsive-menu li{display:none;}
+    #menu .responsive-menu li.logo{display:block;}
+    #menu .responsive-menu li a{padding:15px 10px;background:#222;border-bottom:1px solid #333;}
+    #menu .responsive-menu .logo a{text-align:center;margin:0;background:#111;}
+    #menu .responsive-menu .abre-menu-responsivo{display:block;}
+    
+    #menu .responsive-menu li.dropdown a{background:#000;}
+    #menu .responsive-menu li.dropdown ul{position:static;}
+    #menu .responsive-menu li.dropdown ul li a{background:#111;margin-top:0;padding:15px 10px;border-radius:0;}
+    
+    #menu .responsive-menu li.abierto{display:block;}
+    
+	/* Inicio */
+    #inicio-cursos{margin-top:0;width:100%;text-align:center;}
+    #inicio-cursos h2{width:100%;}
+    #calendario{margin-top:15px;}
+    #calendario .horario .tema{text-align:center;margin-bottom:10px;}
+    #calendario .horario .precio{font-size:28px;}
+    #slider-top{margin-top:0;}
+    
+    /* Popup */
+    .popup{top:0;left:0;margin:0;width:100%;height:100%;}
+}

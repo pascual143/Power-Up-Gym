@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Power UP Gym</title>
+        
+        <meta name="description" content="Somos un gimnasio A1 dedicados a cuidar y mantener tu cuerpo en forma." />
+		<meta charset="utf-8" />
+        
+        <link rel="shortcut icon" href="assets/images/favicon.ico" />
+        
+        <!-- Importante para nuestro responsive Design -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        
+        <!-- STYLE -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/js/jquery-ui-1.11.1.custom/jquery-ui.min.css" rel="stylesheet" />
+        <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+	</head>
+
+	<body>
+        <div class="grid-container">
+            <nav id="menu">
+                <div id="contacto-top" class="hidden">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="box">
+                                <i class="fa fa-phone-square"></i> 55-555-5555
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box text-right">
+                                <a href="mailto:contacto@powerupgym.com">contacto@powerupgym.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="responsive-menu">
+                    <li class="logo">
+                        <span class="abre-menu-responsivo">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                        <a href="index.html">
+                            Power UP GYM
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">
+                            Nosotros
+                        </a>
+                        <ul>
+                            <li><a>Quienes somos</a></li>
+                            <li><a>Testimonios</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="clases.html">
+                            Clases
+                        </a>
+                    </li>
+                    <li>
+                        <a href="entrenadores.html">
+                            Entrenadores
+                        </a>
+                    </li>
+                    <li>
+                        <a href="membresia.html">
+                            Membresía
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <h1 class="titulo-pagina membresia">Membresía</h1>
+            
+            <div id="membresia">
+
+                <div class="video-container">
+                    
+                    <iframe id="bg-video" width="100%" height="100%" src="//www.youtube.com/embed/9jYnLMe0Vic?autoplay=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                    <div class="row">
+
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <div class="box">
+                                <form id="frmMembresia">
+                                    <h3>Registrate ahora y recibe tu <span class="descuento">50%</span> descuento</h3>
+
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <input type="text" name="" class="form-control" placeholder="Ingrese su nombre" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Correo</label>
+                                        <input type="email" name="" class="form-control" placeholder="Ingrese su correo" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Teléfono</label>
+                                        <input type="phone" name="" class="form-control" placeholder="Ingrese su teléfono" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>¿Cuando desea comenzar?</label>
+                                        <input type="text" name="" class="form-control datepicker" placeholder="Ingrese cuando piensa comenzar" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Membresía</label>
+                                        <select id="sltMembresia" class="form-control">
+                                            <option value="platinum" selected>Platinum ($ 200)</option>
+                                            <option value="gold">Gold ($ 150)</option>
+                                            <option value="silver">Silver ($ 90)</option>
+                                        </select>
+                                        <ul id="opcion">
+                                            <li class="platinum">Maquinas pesadas y de cardio</li>
+                                            <li class="platinum">Personal Trainer</li>
+                                            <li class="platinum">Nutricionista</li>
+                                            <li class="platinum">Masajes</li>
+                                            <li class="platinum">Spa</li>
+                                            <li class="gold">Maquinas pesadas y de cardio</li>
+                                            <li class="gold">Personal Trainer</li>
+                                            <li class="gold">Nutricionista</li>
+                                            <li class="silver">Maquinas pesadas y de cardio</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="text-right">
+                                        <button type="submit">Registrarme</button>
+                                    </div>                                
+                                </form>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                </div>
+                
+                <div class="row entrenadores">
+                    <div class="col-4 entrenador-a"></div>
+                    <div class="col-4 entrenador-b"></div>
+                    <div class="col-4 entrenador-c"></div>                    
+                </div>
+            
+            </div>
+        
+            <div id="mail">
+                <form id="frmEmail" action="#" method="post">
+                    <input type="email" name="Correo" placeholder="Regálame tu correo y te dare una oferta el primer mes" />
+                </form>
+            </div>
+            
+            <footer id="footer">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="box">
+                            <h4>Nosotros</h4>
+                            <ul>
+                                <li><a href="#">Quienes somos</a></li>
+                                <li><a href="#">Nuestro objetivo</a></li>
+                                <li><a href="#">Nuestra misión</a></li>
+                                <li><a href="#">Membresías</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4 testimonios">
+                        <div class="box">
+                            <h4>Casos de éxito</h4>
+                            <p>
+                                "Definitivamente ahora me siento mucho mejor"
+                                <span>Juan Perez</span>
+                            </p>
+                            <p>
+                                "Tuve medio de fracasar, pero ellos me apoyaron en todo momento"
+                                <span>Carlos Gonzales</span>
+                            </p>
+                            <p>
+                                "Estoy mucho mejor con mi nuevo cuerpo"
+                                <span>Alberto Villanuevaz</span>
+                            </p>
+                            <p>
+                                "Ahora me siento más saludable"
+                                <span>Andrea Ramirez</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="box">
+                            <h4>Siguenos en</h4>
+                            <div class="fb-like-box" data-href="https://www.facebook.com/anexsoft" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="box">
+                            <h4>Contacto</h4>
+                            <ul>
+                                <li>Av. Los Florales 104 (La Molina)</li>
+                                <li>55-555-5555</li>
+                                <li>contacto@powerupgym.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="credito">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="box">
+                                2014, Desarrollado por el equipo de Anexsoft para su curso "<em>Desarrollando web modernas</em>"                        
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/js/jquery-ui-1.11.1.custom/jquery-ui.min.js"></script>
+        <script src="assets/js/fancybox/jquery.fancybox.js"></script>
+        <script src="assets/js/ini.js"></script>
+
+        <!-- SCRIPTS -->
+        <script src="assets/js/eventos.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                if(isMobile()) 
+                {
+                    $("#bg-video").remove();
+                }
+                
+                $("#sltMembresia").change(function(){
+                    SeleccionarMembresia();    
+                })
+                SeleccionarMembresia();
+                
+                $("#frmMembresia").submit(function(){
+                    $(this).html('<h3>Bienvenido</h3>Gracias por registrarse, lo esperamos pronto.');
+                    return false;
+                })
+            })
+            
+            function SeleccionarMembresia()
+            {
+                var membresia = $("#sltMembresia").val();
+                $("#opcion li").hide();
+                $("#opcion ." + membresia).show();
+            }
+        </script>
+        
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=817000878321394&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+	</body>
+</html> 
